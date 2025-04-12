@@ -1,4 +1,4 @@
 package Loja.Loja.Services;
 
-public class CidadeServices {
+public class PessoaService {
 }
