@@ -2,13 +2,9 @@ package Loja.Loja.Services;
 
 import Loja.Loja.Entity.Pessoa;
 import Loja.Loja.Repository.PessoaRepository;
-import jakarta.persistence.Id;
-import org.hibernate.sql.Delete;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.yaml.snakeyaml.events.Event;
 
-import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;

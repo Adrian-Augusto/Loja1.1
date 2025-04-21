@@ -1,11 +1,9 @@
 package Loja.Loja.Services;
 
 import Loja.Loja.Entity.Marca;
-import Loja.Loja.Entity.Pessoa;
 import Loja.Loja.Repository.MarcaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 

@@ -14,7 +14,10 @@ public class Cidade {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
     String nome;
+    @Temporal(TemporalType.TIMESTAMP)
     LocalDateTime DataCriacao;
+    @Temporal(TemporalType.TIMESTAMP)
+
     LocalDateTime  DataAtualizacao;
     @ManyToOne
     @JoinColumn(name = "estado_id")
