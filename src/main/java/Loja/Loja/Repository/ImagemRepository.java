@@ -1,6 +1,7 @@
 package Loja.Loja.Repository;
 
+import Loja.Loja.Entity.Imagem;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface Imagem extends JpaRepository<Imagem, Long> {
+public interface ImagemRepository extends JpaRepository<Imagem, Long> {
 }

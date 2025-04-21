@@ -16,7 +16,7 @@ public class CidadeService{
     private CidadeRepository cidadeRepository;
 
     // Buscar todas as cidades
-    public List<Cidade> buscarTodas() {
+    public List<Cidade> buscarCidadesTodas() {
         return cidadeRepository.findAll();
     }
 
@@ -53,4 +53,13 @@ public class CidadeService{
         cidade.ifPresent(cidadeRepository::delete);
         return cidade;
     }
+
+
+
+
+
+
+
+
+
 }
